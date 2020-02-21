@@ -10,7 +10,7 @@ import './styles.scss';
 // My Imports
 import { createStore } from "redux";
 import { Provider } from 'react-redux';
-import { featureReducer } from './reducers/featureReducer';
+import { featureReducer } from './reducers/FeatureReducer';
 
 // Store Reducer
 const store = createStore(featureReducer);
